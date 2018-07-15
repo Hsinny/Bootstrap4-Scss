@@ -20,6 +20,13 @@
   }
 }
 
+// add for container-wide class (My Customized)
+@mixin make-container-wide() {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 @mixin make-row() {
   display: flex;
   flex-wrap: wrap;

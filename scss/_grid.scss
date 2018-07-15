@@ -20,6 +20,15 @@
   }
 }
 
+// Wide container (My Customized)
+// 
+
+@if $enable-grid-classes {
+  .container-wide{
+    @include make-container-wide();
+  }
+}
+
 // Row
 //
 // Rows contain and clear the floats of your columns.
